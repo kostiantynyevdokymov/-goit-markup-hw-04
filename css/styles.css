@@ -152,16 +152,21 @@ body {
   margin-right: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
 }
 .header-mail::before {
   content: "";
-  display: inline-block;
+  display: block;
   width: 16px;
   height: 16px;
-  background-image: url(../images/mail.svg);
+  background-image: url(./images/symbol-defs.svg#icon-mail);
   margin-right: 10px;
   background-position: center;
   background-repeat: no-repeat;
+}
+.icon-mail {
+  width: 16px;
+  height: 16px;
 }
 .header-tel {
   font-weight: 500;
@@ -242,22 +247,22 @@ body {
   content: "";
   display: block;
   height: 120px;
-  background-color: #f5f4fa;
+  background-color: rgb(245, 244, 250);
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
 }
 .item-antenna::before {
-  background-image: url(../images/antenna.svg);
+  background-image: url(./images/symbol-defs.svg#icon-antenna);
 }
 .item-clock::before {
-  background-image: url(../images/clock.svg);
+  background-image: url(./images/symbol-defs.svg#clock.svg);
 }
 .item-diagram::before {
-  background-image: url(../images/diagram.svg);
+  background-image: url(./images/symbol-defs.svg#diagram.svg);
 }
 .item-astronaut::before {
-  background-image: url(../images/astronaut\ .svg);
+  background-image: url(./images/symbol-defs.svg#astronaut\ .svg);
 }
 .features-item:last-child {
   margin-right: 0;
@@ -320,23 +325,28 @@ body {
   display: flex;
   justify-content: center;
 }
-.our-team-social-item {
+.our-team-social-item + .our-team-social-item {
   margin-left: 10px;
 }
 .our-team-social-link {
   width: 44px;
   height: 44px;
-  background-color: teal;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  color: #0e0d0d;
+}
+.our-team-social-link:hover {
+  background-color: #2196f3;
 }
 .our-team-social-icon {
   width: 20px;
   height: 20px;
-  fill: currentColor;
+  fill: #afb1b8;
+}
+.our-team-social-icon:hover {
+  fill: #ffffff;
 }
 /* ---footer---- */
 .footer {
