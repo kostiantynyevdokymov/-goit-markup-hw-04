@@ -29,13 +29,20 @@
         <div class="header-contact">
         <ul class="list header-list">
             <!-- Link to e-mail address -->
-            <li><a class="link header-mail" href="mailto:info@devstudio.com"> 
-                <svg class="icon-mail">
-                    <use href="./images/symbol-defs.svg#icon-mail§"></use>
-                </svg>
-                info@devstudio.com</a></li>
+            <li class="mail-item"><a class="link header-mail" href="mailto:info@devstudio.com">
+                 <svg class="icon-contact">
+                        <use href="./images/symbol-defs.svg#icon-mail"></use>
+                </svg>info@devstudio.com</a></li>
             <!-- Link to phone number  -->
-            <li><a class="link header-tel" href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
+            <li>
+                <a class="link header-tel" href="tel:+38 096 111 11 11">
+                <svg class="icon-contact">
+                    <use href="./images/symbol-defs.svg#icon-phone"></use>
+                
+                </svg>
+                    +38 096 111 11 11
+                </a>
+            </li>
         </ul>
         </div>
         </div>
@@ -52,7 +59,8 @@
     <section class="features">
         <div class="container">
         <ul class="list features-list">
-            <li class="features-item item-antenna"><h3 class="h3-title">внимание к деталям</h3> <p class="p-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p></li>
+            <li class="features-item item-antenna">
+                <svg class="icon-features"><use class="icon-features-icon" href="./images/symbol-defs.svg#icon-antenna"></use></svg><h3 class="h3-title">внимание к деталям</h3> <p class="p-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p></li>
             <li class="features-item item-clock"> <h3 class="h3-title">пунктуальность</h3> <p class="p-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p></li>
             <li class="features-item item-diagram"> <h3 class="h3-title">планирование</h3><p class="p-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p></li>
             <li class="features-item item-astronaut"> <h3 class="h3-title">Современные технологии</h3><p class="p-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p></li>
@@ -243,11 +251,57 @@
             </li>
          </ul>
         </div>
+     </section>
+     <!--section customers-->
+
+     <section>
+         <div class="customers">
+         <h2 class="h2-title customers-title">Постоянные клиенты</h2>
+         <ul class="list customers-list">
+             <li class="customers-item"><a class="link customers-link" href="">
+                 <svg class="icon-logo">
+                     <use href="./images/symbol-defs.svg#icon-Logo">
+                     </use>
+                 </svg>
+             </a></li>
+             <li class="customers-item"><a class="link customers-link" href="">
+                <svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-Logo-2">
+                    </use>
+                </svg>
+            </a></li>
+             <li class="customers-item"><a class="link customers-link" href="">
+                <svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-Logo-3">
+                    </use>
+                </svg>
+            </a></li>
+             <li class="customers-item"><a class="link customers-link" href="">
+                <svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-Logo-4">
+                    </use>
+                </svg>
+            </a></li>
+             <li class="customers-item"><a class="link customers-link" href="">
+                <svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-Logo-5">
+                    </use>
+                </svg>
+            </a></li>
+             <li class="customers-item"><a class="link customers-link" href="">
+                <svg class="icon-logo">
+                    <use href="./images/symbol-defs.svg#icon-Logo-6">
+                    </use>
+                </svg>
+            </a></li>
+         </ul>
+        </div>
      </section>   
 </main>
 <footer class="footer">
-    <div class="container">
+    <div class="container connect-container">
     <!--link to homepage-->
+    <section class="footer-section-address">
     <a class="footer-logo link"  href="/"><span class="logocolor">Web</span>studio</a>
     <address class="address">
         <ul class="list footer-list">
@@ -256,6 +310,32 @@
             <li class="footer-item"><a class="link footer-link footer-tel"  href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
     </address>
+    </section>
+    <section>
+        <h2 class="h2-title social-list-title">ПРИСОЕДИНЯЙТЕСЬ</h2>
+        <ul class="list social-list">
+            <li class="footer-social-item"><a class="link footer-social-link" href=""> 
+                <svg class="footer-social-icon">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+            </a></li>
+            <li class="footer-social-item"><a class="link footer-social-link" href="">
+                <svg class="footer-social-icon">
+                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+            </a></li>
+            <li class="footer-social-item"><a class="link footer-social-link" href="">
+                <svg class="footer-social-icon">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+            </a></li>
+            <li class="footer-social-item"><a class="link footer-social-link" href="">
+                <svg class="footer-social-icon">
+                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+            </a></li>
+        </ul>
+    </section>
     </div>
 </footer>
 </body>
