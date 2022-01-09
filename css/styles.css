@@ -517,8 +517,8 @@ body {
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
-.portfolio-list .portfolio-item:hover,
-.portfolio-list .portfolio-item:focus {
+.portfolio-list .portfolio-link:hover,
+.portfolio-list .portfolio-link:focus {
   box-sizing: border-box;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.161),
     0px 4px 4px 0px rgba(0, 0, 0, 0.059), 0px 1px 1px 0px rgba(0, 0, 0, 0.122);
